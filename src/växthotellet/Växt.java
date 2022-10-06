@@ -10,14 +10,15 @@ public abstract class Växt implements växtInterface {
 
     private Vätskor vätska;
 
-    public Växt(String namn, double längd) {
+    public Växt(String namn, double längdIMeter) {
         this.namn = namn;
-        this.längdIMeter = längd;
+        this.längdIMeter = längdIMeter;
     }
+
     @Override
-    public void skrivUt(){
+    public void skrivUt() {
         JOptionPane.showMessageDialog(null, getNamn() + " ska få " +
-                beräknaMängdVätska() + " liter " + getVätska().getVätskaUtskrift());
+                beräknaMängdVätska() + " liter " + getVätska().getVätskaNamn());
     }
 
     public Vätskor getVätska() {

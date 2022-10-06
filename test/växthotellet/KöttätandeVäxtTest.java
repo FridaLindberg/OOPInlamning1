@@ -8,8 +8,8 @@ class KöttätandeVäxtTest {
 
     @Test
     void testBeräknaMängdVätska() {
-        assert(meatloaf.beräknaMängdVätska()==0.24);
-        assert(meatloaf.beräknaMängdVätska()!=0.1);
+        assert (meatloaf.beräknaMängdVätska() == 0.24);
+        assert (meatloaf.beräknaMängdVätska() != 0.1); //tvärtom-test
 
     }
 }

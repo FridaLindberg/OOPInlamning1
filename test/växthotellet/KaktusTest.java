@@ -9,6 +9,6 @@ class KaktusTest {
     @Test
     void testBeräknaMängdVätska() {
         assert(igge.beräknaMängdVätska()==0.02);
-        assert(igge.beräknaMängdVätska()!=0.1);
+        assert(igge.beräknaMängdVätska()!=0.1); //tvärtom-test
     }
 }

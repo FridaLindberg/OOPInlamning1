@@ -2,8 +2,8 @@ package växthotellet;
 
 public class Kaktus extends Växt {
 
-    public Kaktus(String namn, double längd) {
-        super(namn, längd);
+    public Kaktus(String namn, double längdIMeter) {
+        super(namn, längdIMeter);
         setVätska(Vätskor.MINERALVATTEN);
     }
 

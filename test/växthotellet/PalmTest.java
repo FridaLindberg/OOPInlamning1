@@ -11,6 +11,6 @@ class PalmTest {
     void testBeräknaMängdVätska() {
         assert(putte.beräknaMängdVätska()==0.5);
         assert(laura.beräknaMängdVätska()==2.5);
-        assert(laura.beräknaMängdVätska()!=0.5);
+        assert(laura.beräknaMängdVätska()!=0.5); //tvärtom-test
     }
 }

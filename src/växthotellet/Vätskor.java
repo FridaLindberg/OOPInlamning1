@@ -5,13 +5,13 @@ public enum Vätskor {
     MINERALVATTEN("mineralvatten"),
     PROTEINDRYCK("proteindryck");
 
-    private final String vätskaUtskrift;
+    private final String vätskaNamn;
 
-    Vätskor(String vätskaUtskrift) {
-        this.vätskaUtskrift = vätskaUtskrift;
+    Vätskor(String vätskaNamn) {
+        this.vätskaNamn = vätskaNamn;
     }
 
-    public String getVätskaUtskrift() {
-        return vätskaUtskrift;
+    public String getVätskaNamn() {
+        return vätskaNamn;
     }
 }
