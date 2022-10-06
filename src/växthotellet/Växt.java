@@ -2,7 +2,7 @@ package växthotellet;
 
 import javax.swing.*;
 
-public abstract class Växt implements växtInterface {
+public abstract class Växt implements VäxtInterface {
 
     //Inkapsling, variablerna är private och använder getters och setters för att nå dem
     private String namn;

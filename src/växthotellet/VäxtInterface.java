@@ -1,6 +1,6 @@
 package växthotellet;
 
-public interface växtInterface {
+public interface VäxtInterface {
     double beräknaMängdVätska();
 
     void skrivUt();
